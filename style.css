@@ -3,3 +3,50 @@
     margin: 0;
     padding: 0;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    margin-bottom: 70px;
+}
+
+.left-navbar img{
+    max-width: 100%;
+    width: 90px;
+}
+
+.middle-navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.middle-navbar li{
+    list-style: none;
+    color: #575757;
+}
+
+.right-navbar button{
+    background-color: #E8BA2E;
+    color: black;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-right: 5px;
+    gap: 10px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-navbar button span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
