@@ -2,6 +2,7 @@
     font-family: "Host Grotesk", sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 nav{
@@ -62,7 +63,10 @@ nav{
     align-items: center;
     padding-left: 30px;
 
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 30px;
 }
 
 .hero-content{
@@ -90,7 +94,11 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 18px 3%;
-    margin-bottom: 40px;
+    /* margin-bottom: 50px; */
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 30px;
+    
 }
 
 .ticket-section p{
@@ -99,6 +107,62 @@ nav{
 .ticket-section h1{
     font-size: 40px;
 }
+
+
+
+main{
+    
+}
+
+main h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.host-cities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+    gap: 45px;
+}
+
+.host-cities-image img{
+    max-width: 100%;
+    width: 300px;
+}
+
+.host-cities-info{
+    
+}
+
+.host-cities-info h2{
+    margin-bottom: 5px;
+}
+
+.host-cities-info p{
+    font-size: 12px;
+    color: #575757;
+    width: 530px;
+    margin-bottom: 10px;
+}
+
+.host-cities-info ul{
+    font-size: 12px;
+    color: #575757;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+
+
 
 
 
